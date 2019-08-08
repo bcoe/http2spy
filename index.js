@@ -21,7 +21,6 @@ module.exports = {
         "@global": true
       }
     };
-    const module = proxyquire(modulePath, stubs);
-    return module;
+    return proxyquire(modulePath, stubs);
   }
 };
