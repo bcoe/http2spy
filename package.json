@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "c8 mocha --exit test/test.js",
+    "posttest": "npm run lint",
     "lint": "eslint '**/*.js'",
-    "fix": "eslint '**/*.js' --fix"
+    "fix": "eslint '**/*.js' --fix",
+    "coverage": "c8 report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "url": "https://github.com/bcoe/http2spy.git"
@@ -24,15 +26,19 @@
   "devDependencies": {
     "c8": "^5.0.1",
     "chai": "^4.2.0",
+    "coveralls": "^3.0.6",
     "eslint": "^6.1.0",
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-prettier": "^3.1.0",
     "mocha": "^6.2.0",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "standard-version": "^7.0.0"
   },
   "engines": {
     "node": ">=8.10.0"
   },
-  "files": ["index.js"]
+  "files": [
+    "index.js"
+  ]
 }
