@@ -1,0 +1,38 @@
+{
+  "name": "http2spy",
+  "version": "1.0.0",
+  "description": "test helpers for working with Node.js' http2 module",
+  "main": "index.js",
+  "scripts": {
+    "test": "c8 mocha --exit test/test.js",
+    "lint": "eslint '**/*.js'",
+    "fix": "eslint '**/*.js' --fix"
+  },
+  "repository": {
+    "url": "https://github.com/bcoe/http2spy.git"
+  },
+  "keywords": [
+    "http2",
+    "spy",
+    "testing"
+  ],
+  "author": "Ben Coe <bencoe@google.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "proxyquire": "^2.1.1"
+  },
+  "devDependencies": {
+    "c8": "^5.0.1",
+    "chai": "^4.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "mocha": "^6.2.0",
+    "prettier": "^1.18.2"
+  },
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "files": ["index.js"]
+}
