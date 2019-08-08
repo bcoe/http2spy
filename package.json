@@ -4,11 +4,10 @@
   "description": "test helpers for working with Node.js' http2 module",
   "main": "index.js",
   "scripts": {
-    "test": "c8 mocha --exit test/test.js",
+    "test": "c8 mocha test/test.js",
     "posttest": "npm run lint",
     "lint": "eslint .",
     "fix": "eslint . --fix",
-    "precoverage": "npm run test",
     "coverage": "c8 report --reporter=text-lcov | coveralls"
   },
   "repository": {
