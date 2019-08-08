@@ -6,8 +6,8 @@
   "scripts": {
     "test": "c8 mocha --exit test/test.js",
     "posttest": "npm run lint",
-    "lint": "eslint '**/*.js'",
-    "fix": "eslint '**/*.js' --fix",
+    "lint": "eslint .",
+    "fix": "eslint . --fix",
     "precoverage": "npm run test",
     "coverage": "c8 report --reporter=text-lcov | coveralls"
   },

@@ -16,7 +16,7 @@ const myClient = http2spy.require(require.resolve("./lib/my-client"));
 // do something with your http2 API client, e.g.,
 // client.request({ ":method": "GET", ":path": "/" });
 
-// now examine the requests;
+// now examine the requests:
 assert.strictEqual(http2spy.requests[0][":method"], 'GET');
 ```
 
