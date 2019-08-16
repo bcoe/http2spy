@@ -6,7 +6,7 @@ module.exports = {
   get requests() {
     return requests;
   },
-  require: modulePath => {
+  require: (modulePath, additionalStubs = {}) => {
     const stubs = {
       http2: {
         connect: (target, connectionOptions) => {
@@ -21,6 +21,6 @@ module.exports = {
         "@global": true
       }
     };
-    return proxyquire(modulePath, stubs);
+    return proxyquire(modulePath, Object.assign(additionalStubs, stubs));
   }
 };
