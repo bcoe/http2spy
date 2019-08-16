@@ -8,7 +8,8 @@
     "posttest": "npm run lint",
     "lint": "eslint .",
     "fix": "eslint . --fix",
-    "coverage": "c8 report --reporter=text-lcov | coveralls"
+    "coverage": "c8 report --reporter=text-lcov | coveralls",
+    "release": "standard-version"
   },
   "repository": {
     "url": "https://github.com/bcoe/http2spy.git"
