@@ -20,6 +20,20 @@ const myClient = http2spy.require(require.resolve("./lib/my-client"));
 assert.strictEqual(http2spy.requests[0][":method"], 'GET');
 ```
 
+## Passing Additional Stubs
+
+http2spy is just a thin wrapper on top of
+[proxyquire](https://www.npmjs.com/package/proxyquire), if you would like to
+pass additional libraries to stub, simply provide them as a second parameter:
+
+```js
+const myClient = http2spy.require(require.resolve("./lib/my-client"), {
+  'second-library': {
+    foo: () => {}
+  }
+});
+```
+
 ## License
 
 Apache Version 2.0
