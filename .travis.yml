@@ -3,7 +3,8 @@ os:
   - linux
   - windows
 node_js:
-  - "8"
   - "10"
+  - "12"
+  - "13"
   - "node"
 after_success: npm run coverage
