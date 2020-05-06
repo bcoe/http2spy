@@ -34,7 +34,7 @@
     "eslint-plugin-prettier": "^3.1.0",
     "mocha": "^6.2.0",
     "prettier": "^2.0.0",
-    "standard-version": "^7.0.0"
+    "standard-version": "^8.0.0"
   },
   "engines": {
     "node": ">=10.10.0"
