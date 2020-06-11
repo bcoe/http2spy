@@ -1,25 +1,14 @@
 {
-  "report-dir": "./.coverage",
-  "reporter": ["text", "lcov"],
   "exclude": [
-    "**/*-test",
-    "**/.coverage",
-    "**/.prettierrc.js",
-    "**/.mocharc.js",
-    "**/apis",
-    "**/benchmark",
-    "**/docs",
-    "**/samples",
-    "**/scripts",
-    "**/src/**/v*/**/*.js",
-    "**/protos",
-    "**/test",
-    ".jsdoc.js",
-    "**/.jsdoc.js",
-    "karma.conf.js",
-    "webpack-tests.config.js",
-    "webpack.config.js"
+    "build/test/**",
+    "test/**",
+    ".mocharc.js"
   ],
-  "exclude-after-remap": false,
-  "all": true
+  "reporter": [
+    "html",
+    "text"
+  ],
+  "lines": 100,
+  "branches": "100",
+  "statements": "100"
 }

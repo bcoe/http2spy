@@ -8,9 +8,10 @@
     "compile": "tsc -p .",
     "pretest": "npm run compile",
     "test": "c8 mocha build/test",
+    "posttest": "npm run lint",
     "lint": "gts check",
     "fix": "gts fix",
-    "coverage": "c8 report --reporter=text-lcov | coveralls",
+    "coverage": "c8 report --check-coverage",
     "release": "standard-version"
   },
   "repository": {
