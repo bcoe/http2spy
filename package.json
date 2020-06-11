@@ -14,9 +14,7 @@
     "coverage": "c8 report --check-coverage",
     "release": "standard-version"
   },
-  "repository": {
-    "url": "https://github.com/bcoe/http2spy.git"
-  },
+  "repository": "bcoe/http2spy",
   "keywords": [
     "http2",
     "spy",
