@@ -1,7 +1,7 @@
 # http2spy
 
 [![Build Status](https://travis-ci.org/bcoe/http2spy.svg?branch=master)](https://travis-ci.org/bcoe/http2spy)
-[![Coverage Status](https://coveralls.io/repos/github/bcoe/http2spy/badge.svg?branch=master)](https://coveralls.io/github/bcoe/http2spy?branch=master)
+![nycrc config on GitHub](https://img.shields.io/nycrc/bcoe/http2spy)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 
