@@ -4,6 +4,8 @@
   "exclude": [
     "**/*-test",
     "**/.coverage",
+    "**/.prettierrc.js",
+    "**/.mocharc.js",
     "**/apis",
     "**/benchmark",
     "**/docs",
