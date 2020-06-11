@@ -26,6 +26,7 @@ jobs:
         with:
           node-version: 12
       - run: npm install
+      - run: npm run fix
       - run: npm test
   coverage:
     runs-on: ubuntu-latest
