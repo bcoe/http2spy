@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.2](https://www.github.com/bcoe/http2spy/compare/v2.0.1...v2.0.2) (2020-07-13)
+
+
+### Bug Fixes
+
+* compile on prepare for publish ([#21](https://www.github.com/bcoe/http2spy/issues/21)) ([87b4c5b](https://www.github.com/bcoe/http2spy/commit/87b4c5be76753b0bdda883ba00fd38e48c3f8abb))
+
 ### [2.0.1](https://www.github.com/bcoe/http2spy/compare/v2.0.0...v2.0.1) (2020-07-08)
 
 
