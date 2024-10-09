@@ -34,7 +34,7 @@
     "chai": "^4.2.0",
     "gts": "^2.0.2",
     "mocha": "^8.0.0",
-    "standard-version": "^9.0.0",
+    "commit-and-tag-version": "^9.5.0",
     "typescript": "^4.0.0"
   },
   "engines": {
